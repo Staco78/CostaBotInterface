@@ -1,7 +1,7 @@
 {
   "name": "costa_bot_interface",
   "authors": "Staco",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
     "@nodegui/nodegui": "^0.28.1",
