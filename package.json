@@ -1,0 +1,17 @@
+{
+  "name": "costa_bot_interface",
+  "authors": "Staco",
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "@nodegui/nodegui": "^0.28.1",
+    "ws": "7.4.2"
+  },
+  "scripts": {
+    "start": "qode dist/index.js",
+    "build": " npx nodegui-packer --init App && npx nodegui-packer --pack dist"
+  },
+  "devDependencies": {
+    "@nodegui/packer": "^1.4.1"
+  }
+}
